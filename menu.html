@@ -1,0 +1,156 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Crust Bakery - Menu</title>
+    <style>
+        /* --- CSS RINGKAS (HIASAN) --- */
+        body {
+            background-color: #fdfbf7;
+            color: #4a3b32;
+            font-family: sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #5c4033;
+            color: white;
+            padding: 20px;
+        }
+        nav {
+            background-color: #e1b382;
+            padding: 10px;
+        }
+        nav a {
+            color: #5c4033;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            text-align: left; /* Rapat kiri ikut lakaran */
+        }
+        
+        /* Gaya Kad Menu Premium */
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .menu-card {
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #5c4033;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .menu-title-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+        .menu-name {
+            font-weight: bold;
+            color: #5c4033;
+        }
+        .menu-dot {
+            border-bottom: 1.5px dotted #e1b382;
+            flex-grow: 1;
+            margin: 0 8px;
+        }
+        .menu-price {
+            font-weight: bold;
+            color: #b57c48;
+        }
+        .menu-desc {
+            font-size: 0.85rem;
+            color: #7a6253;
+            font-style: italic;
+            margin: 0;
+        }
+
+        footer {
+            background-color: #3e2a20;
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+            text-align: left; /* Footer rapat kiri ikut lakaran */
+            padding-left: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 style="text-align: center;">------Golden Crust Bakery------</h1>
+    </header>
+
+    <nav style="text-align: center;">
+        <a href="index.html">Home</a> | 
+        <a href="menu.html">Menu</a> | 
+        <a href="contact.html">Order & Contact</a>
+    </nav>
+
+    <main class="container">
+        
+        <h2 style="color: #5c4033; margin-top: 10px;">Menu:</h2>
+        
+        <div class="menu-grid">
+            
+            <div class="menu-card">
+                <div class="menu-title-row">
+                    <span class="menu-name">Sourdough Loaf</span>
+                    <span class="menu-dot"></span>
+                    <span class="menu-price">RM8.00</span>
+                </div>
+                <p class="menu-desc">Crusty artisan bread</p>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-title-row">
+                    <span class="menu-name">Apple Danish</span>
+                    <span class="menu-dot"></span>
+                    <span class="menu-price">RM6.50</span>
+                </div>
+                <p class="menu-desc">Flaky pastry with apple filling</p>
+            </div>
+
+            <div class="menu-card">
+                <div class="menu-title-row">
+                    <span class="menu-name">Chocolate Fudge Slice</span>
+                    <span class="menu-dot"></span>
+                    <span class="menu-price">RM9.00</span>
+                </div>
+                <p class="menu-desc">Rich cake with fudge topping</p>
+            </div>
+
+        </div>
+        
+        <br>
+        
+        <h2 style="color: #5c4033;">Services</h2>
+         <p style="line-height: 2; padding-left: 10px;">
+            • Custom Cakes 🎂 – Personalized designs for special events<br>
+            • Event Catering 🍽 – Pastry platters and dessert tables<br>
+            • Wholesale Supply 🟤 – Fresh bread for cafés and restaurants
+        </p>
+
+    </main>
+
+    <footer>
+        <p>Location: 12 Jalan Meranti, Kangar, Perlis</p>
+        <p>Email: goldencrust@gmail.com</p>
+    </footer>
+
+</body>
+</html>
