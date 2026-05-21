@@ -4,80 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Golden Crust Bakery</title>
-    <style>
-        /* --- CSS RINGKAS (HIASAN) --- */
-        body {
-            background-color: #fdfbf7;
-            color: #4a3b32;
-            font-family: sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #5c4033;
-            color: white;
-            padding: 20px;
-        }
-        nav {
-            background-color: #e1b382;
-            padding: 10px;
-        }
-        nav a {
-            color: #5c4033;
-            text-decoration: none;
-            font-weight: bold;
-            margin: 0 10px;
-        }
-        nav a:hover {
-            color: white;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-        .img-box {
-            width: 100%;
-            max-height: 300px;
-            object-fit: cover;
-            margin: 20px 0;
-            border: 2px dashed #5c4033;
-        }
-        footer {
-            background-color: #3e2a20;
-            color: white;
-            padding: 15px;
-            margin-top: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="page-body">
 
-    <header>
+    <header class="main-header">
         <h1>------Golden Crust Bakery------</h1>
     </header>
 
-    <nav>
-        <a href="index.html">Home</a> | 
-        <a href="menu.html">Menu</a> | 
-        <a href="contact.html">Order & Contact</a>
+    <nav class="nav-bar">
+        <a class="nav-link" href="index.html">Home</a> | 
+        <a class="nav-link" href="menu.html">Menu</a> | 
+        <a class="nav-link" href="contact.html">Order & Contact</a>
     </nav>
 
-    <main class="container">
+    <main class="content-container">
         <h2>------Welcome to Golden Crust Bakery------</h2>
         <p><i>"Freshly baked happiness every day!"</i></p>
 
-        <img class="img-box" src="bakery.jpg" alt="Golden Brown breads on a shelf">
+        <img class="img-box" src="image/bakery.jpg" alt="Golden Brown breads on a shelf">
 
-        <h3>About us:</h3>
-        <p>Short story of the bakery’s tradition.</p>
+        <h3>About Us:</h3>
+        <p>Short story of the bakery’s tradition and passion for baking.</p>
 
         <h3>Why Choose Us:</h3>
         <p>• Natural ingredients<br>• Traditional recipes<br>• Friendly service</p>
     </main>
 
-    <footer>
+    <footer class="bottom-footer">
         <p>Location: 12 Jalan Meranti, Kangar, Perlis</p>
         <p>Email: goldencrust@gmail.com</p>
     </footer>
